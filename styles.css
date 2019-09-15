@@ -1,8 +1,22 @@
 /** Header Main **/
 .main {
-  background-color: black;
+  background: content-box radial-gradient(#440048, black);
+  block-size: 800px;
+  border-radius: 10px;
+  position: relative;
+  top: -240px; left: 0px;
 }
 .large {
   font-size: 1500%;
-
+  color: white;
+  font-style: Helvetica;
+  position: relative;
+  top: 40px; left: 40px;
+}
+.black {
+  background-color: black;
+  border: thick double #440048;
+}
+.white {
+  color: white;
 }
