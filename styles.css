@@ -4,27 +4,26 @@
   padding: 0px;
   margin: 0px;
 }
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
-}
-.name {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #235789;
-  border: thick double black;
-  padding: 30px;
-  border-radius: 10px;
-}
+/** General Selectors **/
 
 body {
+}
+
+li {
+  list-style: none;
 
 }
 
-h1 {
+a {
+  text-decoration: none;
+  color: #fdfffc;
+}
+
+
+/** Class Selectors **/
+
+.indexname {
   align-self: center;
   font-size: 250px;
   font-weight: 100;
@@ -32,7 +31,20 @@ h1 {
   color: #fdfffc;
 }
 
-h2 {
+.navlinks > ul, .navlinks p {
+  background-color: #235789;
+  font-size: 20px;
+  color: #fdfffc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: thick double black;
+  text-transform: uppercase;
+}
+
+.dev {
   display: flex;
   justify-content: center;
   position: relative;
@@ -43,13 +55,29 @@ h2 {
   border-radius: 40px;
 }
 
-header {
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.mainhead {
   background-color: #161925;
   display: flex;
   flex-direction: row;
   justify-content: center;
   height: 975px;
+}
 
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #235789;
+  border: thick double black;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .navlinks {
@@ -61,31 +89,28 @@ header {
   margin-right: 150px;
 }
 
-article > ul, p {
+.navname {
+
+}
+
+.skillsmenu {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.skills {
+  color: red;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
   background-color: #235789;
-  font-size: 20px;
-  color: #fdfffc;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 10px;
-  border: thick double black;
-  text-transform: uppercase;
 
 }
 
-li {
-  list-style: none;
-
-}
-
-a {
-  text-decoration: none;
-  color: #fdfffc;
-
-}
-
-.navlink1 .navlink2 {
-
+.navbutton a{
+  color: red;
 }
