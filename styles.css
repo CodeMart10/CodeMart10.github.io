@@ -7,8 +7,6 @@
 
 /** General Selectors **/
 
-body {
-}
 
 li {
   list-style: none;
@@ -29,20 +27,10 @@ a {
   font-weight: 100;
   font-family: Impact;
   color: #fdfffc;
+  text-shadow: 1px 1px 1px #000;
 }
 
-.navlinks > ul, .navlinks p {
-  background-color: #235789;
-  font-size: 20px;
-  color: #fdfffc;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 10px;
-  border: thick double black;
-  text-transform: uppercase;
-}
+
 
 .dev {
   display: flex;
@@ -53,6 +41,8 @@ a {
   color: #fdfffc;
   letter-spacing: 20px;
   border-radius: 40px;
+  box-shadow: inset -3px -3px 6px rgba(0, 0, 0, .6),
+              inset 5px 5px 3px rgba(0, 0, 0, .6);
 }
 
 .header {
@@ -67,7 +57,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 975px;
+  height: 1121px;
 }
 
 .name {
@@ -75,9 +65,10 @@ a {
   flex-direction: column;
   justify-content: center;
   background-color: #235789;
-  border: thick double black;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 20px;
+  box-shadow: inset 2px 7px 15px rgba(255, 255, 255, .6),
+              inset -10px -10px 9px rgba(0, 0, 0, .6);
 }
 
 .navlinks {
@@ -113,4 +104,29 @@ a {
 
 .navbutton a{
   color: red;
+}
+
+.button {
+    border: 0;
+    line-height: 2;
+    padding: 0 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #235789;
+    box-shadow: inset 1px 2px 3px rgba(255, 255, 255, .6),
+                inset -5px -5px 3px rgba(0, 0, 0, .6);
+}
+
+.button:hover {
+    background-color: #161925;
+    cursor: pointer;
+}
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
