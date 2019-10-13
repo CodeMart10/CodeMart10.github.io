@@ -190,14 +190,16 @@ width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 2em;
   height: 50px;
   background-color: #eeeeee;
 
 }
 .skillsarticle {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  padding-top: 2.22em;
   margin-left: 3.33%;
   margin-bottom: 2.5%;
   width: 45%;
@@ -207,8 +209,44 @@ width: 100%;
   color: #eeeeee;
   background-color: #161925;
   border-radius: 10px;
+  background-image: linear-gradient(to bottom, #161925 50%, #235789 50%);
+}
+.html {
+  height: 75%;
+  width: 75%;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  color: #235789;
 }
 
+/* about me */
+.abouth2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  background-color: #eeeeee;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.abouthobbies {
+ width: 30%;
+ height: 2em;
+ background-color: #eeeeee;
+}
+.aboutrow {
+  display: flex;
+
+}
 
 /* media */
 @media screen and (max-width: 1283px) {
@@ -223,5 +261,14 @@ width: 100%;
   .navmain a input {
     min-width: 300px;
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  .skillsarticle {
+    width: 90%;
   }
 }
