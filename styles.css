@@ -2,37 +2,38 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-
 }
 
 /** General Selectors **/
-
-
 li {
   list-style: none;
-
 }
 
 a {
   color: #fdfffc;
   text-decoration: none;
 }
+
 body {
   background-color: #161925;
 }
 
+footer {
+  background-color: #235789;
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
 
 /** Class Selectors **/
 
 
 /* heading classes */
-
-
 .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .mainhead {
@@ -41,7 +42,6 @@ body {
   flex-direction: row;
   height: 1121px;
   justify-content: center;
-
 }
 
 .name {
@@ -78,8 +78,6 @@ body {
 }
 
 /* button class */
-
-
 .button {
     background-color: #235789;
     border: 0;
@@ -101,13 +99,13 @@ body {
     color: #235789;
     cursor: pointer;
 }
+
 .button:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 /* nav class */
-
 .nav { /*skills*/
   background-color: #235789;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, .6);
@@ -117,10 +115,10 @@ body {
   align-items: center;
   height: 100px;
 }
+
 .navspace {
   width: 134.11px;
 }
-
 
 .navlinks {
   display: flex;
@@ -129,7 +127,6 @@ body {
   margin-left: 150px;
   margin-right: 150px;
   padding: 10px;
-
 }
 
 .navmain {
@@ -138,6 +135,7 @@ justify-content: space-around;
 margin-top: 10px;
 width: 100%;
 }
+
 .navname { /*skills*/
   display: flex;
   align-items: center;
@@ -149,30 +147,31 @@ width: 100%;
 
 /* skills class */
 .skillsmenu li a { /*skills*/
-    background-color: ;
     border: 0;
     border-radius: 0px 3px 3px 0px;
     font-size: 1.25rem;
     font-weight: 600;
     padding: 2px 20px;
     letter-spacing: 1px;
-
 }
+
 .skillsmenu li {
   display: flex;
   align-items: center;
   height: 33px;
-
 }
+
 .skillsmenu li a:hover { /*skills*/
     background-color: #eeeeee;
     cursor: pointer;
     color: #235789;
 }
+
 .skillsmenu li a:active { /*skills*/
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+
 .skillsmenu { /*skills*/
   display: flex;
   flex-direction: column;
@@ -186,6 +185,7 @@ width: 100%;
   flex-wrap: wrap;
   background-color: #eeeeee;
 }
+
 .skillsh2 {
   display: flex;
   align-items: center;
@@ -193,8 +193,8 @@ width: 100%;
   font-size: 2em;
   height: 50px;
   background-color: #eeeeee;
-
 }
+
 .skillsarticle {
   display: flex;
   flex-direction: column;
@@ -212,6 +212,7 @@ width: 100%;
   border-radius: 10px;
   background-image: linear-gradient(to bottom, #161925 50%, #235789 50%);
 }
+
 .skills-div {
   height: 75%;
   width: 75%;
@@ -233,6 +234,7 @@ width: 100%;
   padding-top: .5em;
   padding-bottom: .5em;
 }
+
 .about {
   display: flex;
   flex-direction: column;
@@ -249,27 +251,33 @@ width: 100%;
   border-radius: 10px;
   background-image: linear-gradient(to bottom, #161925 50%, #eeeeee 50%);
 }
+
 .about img {
   width: 15em;
   margin-top: 1em;
+  border-radius: 10px;
 }
+
 .abouthobbies {
  width: 30%;
  height: 2em;
  background-color: #eeeeee;
 }
+
 .aboutrow {
   display: column;
   width: 90%;
   justify-content: space-between;
   margin-top: 2em;
 }
+
 .about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #235789;
 }
+
 .aboutme {
   width: 80%;
   color: #235789;
@@ -278,6 +286,7 @@ width: 100%;
   margin-top: 1em;
   height: 50%;
 }
+
 .aboutsections {
   display: flex;
   flex-direction: column;
@@ -295,12 +304,13 @@ width: 100%;
   border-radius: 10px;
   background-image: linear-gradient(to bottom, #161925 50%, #eeeeee 50%);
 }
+
 /* projects */
 .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 2.22em;
+  justify-content: center;
   margin: 2.5em;
   width: 45%;
   font-size: 2em;
@@ -311,9 +321,11 @@ width: 100%;
   border-radius: 10px;
   background-image: linear-gradient(to bottom, #eeeeee 50%, #235789 50%);
 }
+
 .projectspage {
   display: flex;
 }
+
 .projects-div {
   height: 75%;
   width: 75%;
@@ -324,16 +336,113 @@ width: 100%;
   font-size: 1em;
 }
 
+.projects-div h2 {
+  border-bottom: 2px solid #eeeeee;
+}
+
+/*contact*/
+.contact {
+  color: #eeeeee;
+  position: absolute;
+  left: 50px;
+}
+
+.contact:hover {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 4px;
+  color: #235789;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-icons img {
+  width: 3em;
+}
+
+.contact-icons h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  margin: 1em;
+}
+
+.contact-license {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 62em;
+  background-color: #235789;
+}
+
+.contact-home a {
+  background-color: #eeeeee;
+  color: #235789;
+  padding: 1em 2em;
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 3px rgba(255, 255, 255, .6),
+              inset -5px -5px 3px rgba(0, 0, 0, .6);
+}
+
+.contact-home a:hover {
+  background-color: #235789;
+  color: #eeeeee;
+  padding: 1em 2em;
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 3px rgba(255, 255, 255, .6),
+              inset -5px -5px 3px rgba(0, 0, 0, .6);
+}
+
+.contact-home {
+  position: absolute;
+  top: 4em;
+}
+
+/*icon*/
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  color: #eeeeee;
+}
+
+.icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons p {
+  margin-top: .5em;
+}
+
 /* media */
 @media screen and (max-width: 1283px) {
   .indexname {
     font-size: 150px;
   }
+
   .navmain {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .navmain a input {
     min-width: 300px;
     margin-top: 20px;
@@ -344,6 +453,7 @@ width: 100%;
     display: flex;
     flex-direction: column;
   }
+
   .skillsarticle {
     width: 90%;
   }
@@ -355,8 +465,33 @@ width: 100%;
     margin: 0 auto;
     align-items: center;
   }
+
   .skillsarticle {
     width: 90%;
     margin-top: 1em;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .projects {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .projects {
+    margin-left: .5em;
+    margin-right: .5em;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .projectspage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+  }
+
+  .projects {
+    width: 90%;
   }
 }
