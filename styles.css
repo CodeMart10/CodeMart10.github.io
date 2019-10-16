@@ -269,7 +269,7 @@ width: 100%;
 }
 
 .aboutrow {
-  display: column;
+  display: flex;
   width: 90%;
   justify-content: space-between;
   margin-top: 2em;
