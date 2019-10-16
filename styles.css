@@ -235,6 +235,10 @@ width: 100%;
   padding-bottom: .5em;
 }
 
+.hidden_heading {
+  display: none;
+}
+
 .about {
   display: flex;
   flex-direction: column;
