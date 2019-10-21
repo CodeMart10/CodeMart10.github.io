@@ -88,7 +88,9 @@ footer {
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 2;
-    padding: 0 20px;
+    padding: 7px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     letter-spacing: 3px;
     text-align: center;
     text-shadow: 1px 1px 1px #000;
@@ -440,18 +442,44 @@ width: 100%;
   .indexname {
     font-size: 150px;
   }
-
   .navmain {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
-
-  .navmain a input {
-    min-width: 300px;
-    margin-top: 20px;
+  .dev {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  .navmain li {
+    margin: 10px;
   }
 }
+@media screen and (max-width: 800px) {
+  .indexname {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 600px){
+  .indexname {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .name {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 520px) {
+  .button {
+    font-size: .75em;
+    margin: 0;
+  }
+  .navmain li {
+    margin: 0;
+    margin-top: 1em;
+  }
+}
+
 @media screen and (max-width: 1500px) {
   .skills {
     display: flex;
