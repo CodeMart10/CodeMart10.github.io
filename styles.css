@@ -437,6 +437,11 @@ width: 100%;
   margin-top: .5em;
 }
 
+/* resume */
+.resume img {
+  width: 50em;
+}
+
 /* media */
 @media screen and (max-width: 1283px) {
   .indexname {
