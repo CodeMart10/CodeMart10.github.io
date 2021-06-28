@@ -215,6 +215,11 @@ width: 100%;
   background-image: linear-gradient(to bottom, #161925 50%, #235789 50%);
 }
 
+.skills-div p a{
+  color: #161925;
+  text-decoration: underline;
+}
+
 .skills-div {
   height: 75%;
   width: 75%;
