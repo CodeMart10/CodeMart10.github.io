@@ -319,7 +319,6 @@ width: 100%;
 /* projects */
 .projects {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 2.5em;
@@ -335,6 +334,7 @@ width: 100%;
 
 .projectspage {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .projects-div {
